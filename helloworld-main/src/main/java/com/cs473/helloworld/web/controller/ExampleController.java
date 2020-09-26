@@ -28,7 +28,7 @@ public class ExampleController {
     }
 
     @GetMapping("/name")
-    public String ping() {
+    public String name() {
         return "hello world !! , This is Yu Bin Liu 23425845 via Docker.";
     }
 
