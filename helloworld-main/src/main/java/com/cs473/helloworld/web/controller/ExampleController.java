@@ -27,6 +27,11 @@ public class ExampleController {
                 .build();
     }
 
+    @GetMapping("/name")
+    public String ping() {
+        return "hello world !! , This is Yu Bin Liu 23425845 via Docker.";
+    }
+
     @GetMapping("/exception")
     public void exception(
             @RequestParam(name="status", required=false) int status) {
